@@ -1,6 +1,6 @@
 export default function BusinessModel() {
   return (
-    <section className="min-h-screen bg-black text-white font-sans py-16 relative overflow-hidden">
+    <section id="business" className="min-h-screen bg-black text-white font-sans py-16 relative overflow-hidden">
       {/* Background with subtle horizontal lines */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900">
         <div className="absolute inset-0 opacity-10">

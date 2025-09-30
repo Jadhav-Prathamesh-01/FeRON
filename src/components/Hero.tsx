@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden">
       {/* Navbar */}
       <Navbar />
       {/* Background */}

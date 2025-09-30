@@ -19,7 +19,7 @@ export default function Contact() {
       
       // Debug: Log form data
       console.log('Form data being sent:');
-      for (let [key, value] of formData.entries()) {
+      for (const [key, value] of formData.entries()) {
         console.log(key, value);
       }
       
@@ -54,7 +54,7 @@ export default function Contact() {
     };
   }, []);
   return (
-    <section className="min-h-screen bg-black text-white font-sans py-16 relative overflow-hidden">
+    <section id="contact" className="min-h-screen bg-black text-white font-sans py-16 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900">
       </div>
@@ -75,7 +75,7 @@ export default function Contact() {
           
           {/* Description Paragraph */}
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-            Join us in revolutionizing India's energy storage landscape. Connect with our team to learn more about FeRON technology and explore partnership opportunities that will shape the future of sustainable energy.
+            Join us in revolutionizing India&apos;s energy storage landscape. Connect with our team to learn more about FeRON technology and explore partnership opportunities that will shape the future of sustainable energy.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function Contact() {
                 
                 {/* Success Message */}
                 <div ref={resultRef} className="hidden bg-green-600 text-white p-4 rounded-lg mb-6">
-                  Thank you! Your message has been sent successfully. We'll get back to you soon.
+                  Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -201,7 +201,7 @@ export default function Contact() {
                 <h3 className="text-2xl font-bold text-white mb-6">FeRON Energy</h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
                   Pioneering the future of energy storage with FeRON Iron-Air Battery technology. 
-                  We're building India's energy independence through innovative, sustainable, 
+                  We&apos;re building India&apos;s energy independence through innovative, sustainable, 
                   and cost-effective energy storage solutions.
                 </p>
                 <div className="space-y-4">
@@ -247,7 +247,7 @@ export default function Contact() {
               <div className="bg-gray-900/50 rounded-xl p-8 backdrop-blur-sm">
                 <h3 className="text-xl font-bold text-white mb-4">Partnership Opportunities</h3>
                 <p className="text-gray-300 mb-4">
-                  We're looking for strategic partners in:
+                  We&apos;re looking for strategic partners in:
                 </p>
                 <ul className="text-gray-300 space-y-2">
                   <li>• Utility companies and grid operators</li>

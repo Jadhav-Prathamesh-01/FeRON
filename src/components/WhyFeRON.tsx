@@ -1,6 +1,6 @@
 export default function WhyFeRON() {
   return (
-    <section className="min-h-screen bg-black text-white font-sans py-16 relative overflow-hidden">
+    <section id="whyferon" className="min-h-screen bg-black text-white font-sans py-16 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900">
       </div>
@@ -17,7 +17,7 @@ export default function WhyFeRON() {
               
               {/* Main Heading with Gradient */}
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight font-serif">
-                <span className="text-gray-400">Here's how</span> <span className="text-white">WE SOLVE</span> <span className="text-gray-300">THE</span><br />
+                <span className="text-gray-400">Here&apos;s how</span> <span className="text-white">WE SOLVE</span> <span className="text-gray-300">THE</span><br />
                 <span className="text-gray-200">PROBLEM.</span>
               </h1>
             </div>
@@ -70,7 +70,7 @@ export default function WhyFeRON() {
             
             {/* Longer Paragraph */}
             <p className="text-white text-sm leading-relaxed flex-grow">
-              Leverage India's natural iron abundance for sustainable energy solutions. Our iron-air battery technology offers unmatched safety and reliability. No more worrying about battery explosions or safety hazards - power your future with confidence.
+              Leverage India&apos;s natural iron abundance for sustainable energy solutions. Our iron-air battery technology offers unmatched safety and reliability. No more worrying about battery explosions or safety hazards - power your future with confidence.
             </p>
           </div>
 

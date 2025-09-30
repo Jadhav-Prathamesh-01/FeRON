@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ExploreSolutions() {
   return (
-    <section className="py-16 bg-black text-white font-sans relative overflow-hidden">
+    <section id="explore" className="py-16 bg-black text-white font-sans relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-black to-gray-900">
       </div>
